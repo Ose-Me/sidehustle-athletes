@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Athletes Registration</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Athletes Registraton Page</h1>
+
+    <div id="main-container">
+        <div class="column" id="column-1">
+            <form action="/action_page.php">
+                <div class="container">
+                    <h2>Register</h2>
+                    <p>Please fill in this form to create an account.</p>
+
+                    <div class="row">
+                        <div>
+                            <label for="firstname"><b>firstname</b></label>
+                            <input type="text" placeholder="Enter firstname" name="firstname" id="firstname" required>
+                        </div>
+                        <div>
+                            <label for="lastname"><b>lastname</b></label>
+                            <input type="text" placeholder="Enter Lastname" name="lastname" id="lastname" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="Date "><b>Date of birth</b></label>
+                            <input type="date" placeholder="Enter Date of birth " name="Date " id="Date " required>
+                        </div>
+                        <div>
+                            <label for="state"><b>State of Origin</b></label>
+                            <input type="text" placeholder="Enter state" name="state" id="state" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="nationality"><b>Nationality</b></label>
+                            <input type="text" placeholder="Enter nationality" name="nationality" id="nationality"
+                                required>
+                        </div>
+                        <div>
+                            <label for="gender"><b>Gender</b></label>
+                            <input type="text" placeholder="Enter gender" name="gender" id="gender" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <label for="username"><b>Username</b></label>
+                            <input type="text" placeholder="Enter username" name="username" id="username" required>
+                        </div>
+                        <div>
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="registerbtn">Register</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="column">
+            <form action="/action_page.php">
+                <div class="container">
+                    <h2>Login</h2>
+                    <p>Please login if you already have an account.</p>
+
+                    <label for="username"><b>username</b></label>
+                    <input type="text" placeholder="Enter username" name="username" id="username" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                    <button type="submit" class="registerbtn">login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
